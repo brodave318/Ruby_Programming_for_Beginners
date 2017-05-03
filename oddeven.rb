@@ -1,10 +1,9 @@
-print "Enter a letter to see if it's a vowel or a consonant"
-c = gets
-if c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'
-  puts c
-  puts "is a vowel"
+print "Enter any number to know if it's odd or even\n"
+num = gets.to_i
+if num % 2 == 0
+  puts "Number is even."
 else
-  puts c, "is a consonant"
+  puts "Number is odd."
 end
 puts "Press ENTER to exit"
 gets
